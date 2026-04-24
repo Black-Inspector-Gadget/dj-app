@@ -18,6 +18,14 @@ const Projects = () => {
       link: "https://www.blackgirlsskate.org/"
     },
     {
+      title: "Beat The Heat Car Seat",
+      category: "Hardware & IoT",
+      description: "An IoT hardware device engineered to prevent caretakers from accidentally leaving loved ones in unattended vehicles. Built to monitor environmental safety and trigger alerts during dangerous conditions.",
+      tags: ["IoT", "Hardware Integration", "Embedded Systems", "Sensors"],
+      link: "https://www.hackster.io/Black_Inspector_Gadget/beat-the-heat-car-seat-a6ada0",
+      github: "https://github.com/Black-Inspector-Gadget/Beat-The-Heat-Carseat"
+    },
+    {
       title: "Workflow Automation Suite",
       category: "Internal Tools",
       description: "Developed comprehensive tools that reduced operational workflows from hours to minutes. Integrated hardware, network, and software systems to maintain 99.99% uptime across global data centers.",

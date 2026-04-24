@@ -29,15 +29,13 @@ const Projects = () => {
       title: "Workflow Automation Suite",
       category: "Internal Tools",
       description: "Developed comprehensive tools that reduced operational workflows from hours to minutes. Integrated hardware, network, and software systems to maintain 99.99% uptime across global data centers.",
-      tags: ["Python", "Go", "Automation", "Infrastructure"],
-      link: "#"
+      tags: ["Python", "Go", "Automation", "Infrastructure"]
     },
     {
       title: "Scalable Tech Solutions",
       category: "Solutions Consulting",
       description: "Translated fragmented business requirements into robust, automated technical implementations for enterprise clients, demonstrating deep analytical rigor.",
-      tags: ["System Design", "Cloud Architecture", "Consulting"],
-      link: "#"
+      tags: ["System Design", "Cloud Architecture", "Consulting"]
     }
   ];
 

@@ -12,7 +12,7 @@ const Contact = () => {
             I’ve spent my career automating workflows to save people time. Here is the one manual step left: you picking a time that works. Let’s skip the 20-email thread and get straight to the solution!
           </p>
 
-          <a href="mailto:hello@example.com" className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
+          <a href="mailto:deah.gooden@gmail.com" className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
             <Mail size={20} /> Schedule a Conversation
           </a>
         </div>

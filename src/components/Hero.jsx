@@ -19,8 +19,8 @@ const Hero = () => {
         borderRadius: '50%', zIndex: -1
       }}></div>
 
-      <div className="container animate-fade-in">
-        <div style={{ maxWidth: '800px' }}>
+      <div className="container animate-fade-in" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+        <div style={{ maxWidth: '600px' }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem 1rem', background: 'var(--bg-surface)', borderRadius: '20px', border: '1px solid var(--border-color)', marginBottom: '2rem' }}>
             <Terminal size={16} className="text-accent" />
             <span style={{ fontSize: '0.9rem', fontWeight: 500, letterSpacing: '0.05em' }}>AVAILABLE FOR OPPORTUNITIES</span>
@@ -31,7 +31,7 @@ const Hero = () => {
             <span className="text-accent">Engineer.</span>
           </h1>
 
-          <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', marginBottom: '3rem', maxWidth: '600px', lineHeight: 1.8 }}>
+          <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', marginBottom: '3rem', lineHeight: 1.8 }}>
             Over a decade of experience spanning Google’s global infrastructure and full-stack internal tool development. Translating high-ambiguity environments into scalable, automated technical solutions.
           </p>
 
@@ -42,6 +42,45 @@ const Hero = () => {
             <a href="#contact" className="btn btn-outline">
               Get in Touch
             </a>
+          </div>
+        </div>
+
+        <div style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
+          <div style={{
+            width: '100%',
+            maxWidth: '400px',
+            aspectRatio: '1/1',
+            borderRadius: '2rem',
+            overflow: 'hidden',
+            border: '2px solid var(--border-color)',
+            boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+            position: 'relative'
+          }}>
+            <img 
+              src="/profile.jpg" 
+              alt="Deah Jonae Gooden" 
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              onError={(e) => {
+                e.target.onerror = null; 
+                e.target.src = "https://via.placeholder.com/400x400/1e293b/edc23c?text=Add+profile.jpg+to+public+folder";
+              }}
+            />
+          </div>
+          {/* Decorative element */}
+          <div style={{
+            position: 'absolute',
+            bottom: '-20px',
+            right: '10%',
+            background: 'var(--bg-surface)',
+            backdropFilter: 'blur(12px)',
+            border: '1px solid var(--border-color)',
+            padding: '1rem 1.5rem',
+            borderRadius: '1rem',
+            boxShadow: '0 10px 30px rgba(0,0,0,0.2)'
+          }}>
+            <p style={{ margin: 0, fontWeight: 600, fontFamily: 'var(--font-heading)' }}>
+              10+ Years <span className="text-accent">Experience</span>
+            </p>
           </div>
         </div>
       </div>

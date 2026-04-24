@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github } from 'lucide-react';
+import { ArrowUpRight, Code } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -61,7 +61,7 @@ const Projects = () => {
                 )}
                 {project.github && (
                   <a href={project.github} className="btn btn-outline" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
-                    <Github size={16} /> Code
+                    <Code size={16} /> Code
                   </a>
                 )}
               </div>

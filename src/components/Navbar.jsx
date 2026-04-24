@@ -29,7 +29,7 @@ const Navbar = () => {
     }}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <a href="#" style={{ fontSize: '1.5rem', fontWeight: 800, fontFamily: 'var(--font-heading)', color: 'var(--text-primary)' }}>
-          Deah Jonae<span className="text-accent">.</span>
+          Deah Jonae Gooden<span className="text-accent">.</span>
         </a>
 
         {/* Desktop Nav */}

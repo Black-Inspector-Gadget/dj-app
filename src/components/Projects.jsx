@@ -11,6 +11,13 @@ const Projects = () => {
       github: "https://github.com/Black-Inspector-Gadget/dj-app"
     },
     {
+      title: "Black Girls Skate Platform",
+      category: "Web & Mobile Development",
+      description: "Engineered and maintained the digital presence for Black Girls Skate, encompassing both the website and mobile application. Focused on creating an inclusive, highly-accessible community platform.",
+      tags: ["Web Development", "Mobile App", "Community Platform", "Inclusive Design"],
+      link: "https://www.blackgirlsskate.org/"
+    },
+    {
       title: "Workflow Automation Suite",
       category: "Internal Tools",
       description: "Developed comprehensive tools that reduced operational workflows from hours to minutes. Integrated hardware, network, and software systems to maintain 99.99% uptime across global data centers.",

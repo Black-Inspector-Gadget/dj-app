@@ -17,9 +17,11 @@ const About = () => {
             <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '2.5rem' }}>
               I believe the best solutions aren't just efficient; they’re elegant and accessible. A dual-threat technical leader who combines deep analytical rigor with a commitment to building diverse, innovative, and responsible technology.
             </p>
-            <a href="https://docs.google.com/document/d/1Jf-L3NJAoRv-GRqzm2hK2Zh_3UT5o2Dk0hIRV42qg6c/edit?tab=t.2v03wfw7bf4m" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.75rem 1.5rem', fontSize: '1rem' }}>
-              <FileText size={18} /> View Resume
-            </a>
+            <div style={{ marginTop: '3rem' }}>
+              <a href="https://docs.google.com/document/d/1Jf-L3NJAoRv-GRqzm2hK2Zh_3UT5o2Dk0hIRV42qg6c/edit?tab=t.2v03wfw7bf4m" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.1rem', boxShadow: '0 10px 20px rgba(237, 194, 60, 0.2)' }}>
+                <FileText size={20} /> View Full Resume
+              </a>
+            </div>
           </div>
 
           <div className="glass glass-card" style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>

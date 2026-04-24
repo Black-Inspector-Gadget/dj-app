@@ -23,7 +23,16 @@ const Skills = () => {
     <section id="skills" style={{ background: 'var(--bg-surface)' }}>
       <div className="container">
         <h2 className="section-title">Core <span>Competencies</span></h2>
-        <p style={{ textAlign: 'center', color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto 4rem auto', fontSize: '1.2rem' }}>
+        <p style={{ 
+          textAlign: 'center', 
+          color: 'var(--text-primary)', 
+          fontFamily: 'var(--font-heading)',
+          fontWeight: 600,
+          fontSize: '1.5rem',
+          letterSpacing: '0.05em',
+          maxWidth: '600px', 
+          margin: '0 auto 4rem auto' 
+        }}>
           What I bring to the table.
         </p>
         

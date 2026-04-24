@@ -1,4 +1,4 @@
-import { MapPin, Server, Activity } from 'lucide-react';
+import { MapPin, Server, Activity, FileText } from 'lucide-react';
 
 const About = () => {
   return (
@@ -14,9 +14,12 @@ const About = () => {
             <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', marginBottom: '1.5rem', lineHeight: 1.8 }}>
               My professional path has taken me from Emory’s medical labs to Google’s global data centers, and currently into the world of Solutions Consulting.
             </p>
-            <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
+            <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '2.5rem' }}>
               I believe the best solutions aren't just efficient; they’re elegant and accessible. A dual-threat technical leader who combines deep analytical rigor with a commitment to building diverse, innovative, and responsible technology.
             </p>
+            <a href="https://docs.google.com/document/d/1Jf-L3NJAoRv-GRqzm2hK2Zh_3UT5o2Dk0hIRV42qg6c/edit?tab=t.2v03wfw7bf4m" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '0.75rem 1.5rem', fontSize: '1rem' }}>
+              <FileText size={18} /> View Resume
+            </a>
           </div>
 
           <div className="glass glass-card" style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>

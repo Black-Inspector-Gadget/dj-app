@@ -57,7 +57,7 @@ const Hero = () => {
             position: 'relative'
           }}>
             <img 
-              src="/profile.jpg" 
+              src={`${import.meta.env.BASE_URL}profile.jpg`} 
               alt="Deah Jonae Gooden" 
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               onError={(e) => {

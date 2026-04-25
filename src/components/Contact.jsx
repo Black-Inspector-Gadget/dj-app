@@ -1,4 +1,4 @@
-import { Mail } from 'lucide-react';
+import { Mail, Calendar } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -12,9 +12,14 @@ const Contact = () => {
             I’ve spent my career automating workflows to save people time. Here is the one manual step left: you picking a time that works. Let’s skip the 20-email thread and get straight to the solution!
           </p>
 
-          <a href="mailto:deah.gooden@gmail.com" className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
-            <Mail size={20} /> Schedule a Conversation
-          </a>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap' }}>
+            <a href="https://calendar.google.com/calendar/u/1?cid=YzY4YTFhNTUxNzE5ZDYzODEzZWI2ZDQ4M2ViMTYwOWRmNjEzNjNmMzllNjc0NTE0Y2UxYjA2MTY0ZDYwYjZkNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
+              <Calendar size={20} /> Schedule a Conversation
+            </a>
+            <a href="mailto:deah.gooden@gmail.com" className="btn btn-outline" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
+              <Mail size={20} /> Send an Email
+            </a>
+          </div>
         </div>
       </div>
     </section>

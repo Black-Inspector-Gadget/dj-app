@@ -3,6 +3,14 @@ import { ArrowUpRight, Code } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: "Project Storm",
+      category: "Frontend Architecture & Migration",
+      description: "A comprehensive medical-grade support platform migrated from Google Sites into a responsive, highly interactive React Single Page Application. Features a beautifully designed custom Medical Directory with real-time search filtering.",
+      tags: ["React", "Vite", "SPA Migration", "Healthcare Tech"],
+      link: "https://black-inspector-gadget.github.io/Project_Storm/",
+      github: "https://github.com/Black-Inspector-Gadget/Project_Storm"
+    },
+    {
       title: "Portfolio Web App",
       category: "Frontend Architecture & Design",
       description: "A premium, responsive single-page application built with React, Vite, and custom CSS. Designed to showcase a 'dual-threat' engineering background using modern design principles like dark mode, glassmorphism, and custom animations without relying on heavy UI libraries.",

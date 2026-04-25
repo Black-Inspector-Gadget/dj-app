@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: "Project Storm",
       category: "Frontend Architecture & Migration",
-      description: "A comprehensive medical-grade support platform migrated from Google Sites into a responsive, highly interactive React Single Page Application. Features a beautifully designed custom Medical Directory with real-time search filtering.",
+      description: "A comprehensive medical-grade support platform migrated from Google Sites into a responsive, highly interactive React Single Page Application. The purpose of this tool is to empower those living with or caring for people with Epilepsy also known as recurring seizures. Features a beautifully designed custom Medical Directory with real-time search filtering.",
       tags: ["React", "Vite", "SPA Migration", "Healthcare Tech"],
       link: "https://black-inspector-gadget.github.io/Project_Storm/",
       github: "https://github.com/Black-Inspector-Gadget/Project_Storm"

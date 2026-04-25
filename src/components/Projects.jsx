@@ -44,7 +44,7 @@ const Projects = () => {
       title: "Workflow Automation Suite",
       category: "Internal Tools",
       description: "Developed comprehensive tools that reduced operational workflows from hours to minutes. Integrated hardware, network, and software systems to maintain 99.99% uptime across global data centers.",
-      tags: ["Python", "Go", "Automation", "Infrastructure"]
+      tags: ["Google Cloud Platform", "Gemini", "Nana Banana", "Antigravity", "Help Center", "Cider", "Google Analytics"]
     },
     {
       title: "Scalable Tech Solutions",

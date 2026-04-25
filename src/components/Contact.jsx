@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
 
           <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap' }}>
-            <a href="https://calendar.google.com/calendar/u/1?cid=YzY4YTFhNTUxNzE5ZDYzODEzZWI2ZDQ4M2ViMTYwOWRmNjEzNjNmMzllNjc0NTE0Y2UxYjA2MTY0ZDYwYjZkNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
+            <a href="https://calendar.google.com/calendar/embed?src=c68a1a551719d63813eb6d483eb1609df61363f39e674514ce1b06164d60b6d6%40group.calendar.google.com&ctz=America%2FNew_York" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
               <Calendar size={20} /> Schedule a Conversation
             </a>
             <a href="mailto:deah.gooden@gmail.com" className="btn btn-outline" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>

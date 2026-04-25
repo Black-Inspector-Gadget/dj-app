@@ -34,6 +34,13 @@ const Projects = () => {
       github: "https://github.com/Black-Inspector-Gadget/Beat-The-Heat-Carseat"
     },
     {
+      title: "\"Shuv It\" versus \"Ollie\"",
+      category: "3D Artwork & NFTs",
+      description: "A project displaying the differences between the two skateboard tricks: \"Shuv It\" versus \"Ollie\". 3D Artwork. Designed with Unity. Available on OpenSea.",
+      tags: ["Unity", "3D Modeling", "NFT", "Digital Art"],
+      link: "https://opensea.io/item/polygon/0x2953399124f0cbb46d2cbacd8a89cf0599974963/32995396286751114035988550792975481396363927005753182805942965736422653296641"
+    },
+    {
       title: "Workflow Automation Suite",
       category: "Internal Tools",
       description: "Developed comprehensive tools that reduced operational workflows from hours to minutes. Integrated hardware, network, and software systems to maintain 99.99% uptime across global data centers.",

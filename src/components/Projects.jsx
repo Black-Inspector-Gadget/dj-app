@@ -13,7 +13,7 @@ const Projects = () => {
     {
       title: "Portfolio Web App",
       category: "Frontend Architecture & Design",
-      description: "A premium, responsive single-page application built with React, Vite, and custom CSS. Designed to showcase a 'dual-threat' engineering background using modern design principles like dark mode, glassmorphism, and custom animations without relying on heavy UI libraries.",
+      description: "A premium, responsive single-page application built with React, Vite, and custom CSS. Designed to showcase a 'dual-threat' engineering background using modern design principles like dark mode, glassmorphism, and custom animations without relying on heavy UI libraries. (You are here.)",
       tags: ["React", "Vite", "Vanilla CSS", "UI/UX Design"],
       link: "https://github.com/Black-Inspector-Gadget/dj-app#readme",
       github: "https://github.com/Black-Inspector-Gadget/dj-app"

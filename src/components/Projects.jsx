@@ -50,7 +50,7 @@ const Projects = () => {
       title: "Scalable Tech Solutions",
       category: "Solutions Consulting",
       description: "Translated fragmented business requirements into robust, automated technical implementations for enterprise clients, demonstrating deep analytical rigor.",
-      tags: ["System Design", "Cloud Architecture", "Consulting"]
+      tags: ["System Design", "Cloud Architecture", "System Solutioning", "Structured Discovery", "Agile Methodologies", "Stakeholder Management", "Cross-Functional Collaboration"]
     }
   ];
 

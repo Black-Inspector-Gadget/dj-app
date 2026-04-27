@@ -32,7 +32,7 @@ const Hero = () => {
           </h1>
 
           <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', marginBottom: '3rem', lineHeight: 1.8 }}>
-            Solutions-oriented Engineer with over a decade of experience spanning Google’s global infrastructure and full-stack internal tool development. Expert at navigating high-ambiguity environments to translate fragmented business requirements into scalable, automated technical solutions. Proven track record of reducing operational workflows from hours to minutes and managing the full lifecycle of hardware, network, and software integration. A dual-threat technical leader who combines deep analytical rigor with a commitment to building diverse, innovative, and responsible technology.
+            Solutions-oriented Engineer and Program Manager with over a decade of experience spanning Google’s global infrastructure and full-stack internal tool development. Expert at navigating high-ambiguity environments to translate fragmented business requirements into scalable, automated technical solutions. Proven track record of reducing operational workflows from hours to minutes and managing the full lifecycle of hardware, network, and software integration. A dual-threat technical leader who combines deep analytical rigor with a commitment to building diverse, innovative, and responsible technology.
           </p>
 
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
